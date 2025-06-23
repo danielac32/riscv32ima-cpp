@@ -1,7 +1,7 @@
 // Copyright 2022 Charles Lohr, you may use this file or any portions herein under any of the BSD, MIT, or CC0 licenses.
 
-#ifndef MINI_RV32IMAH_HPP
-#define MINI_RV32IMAH_HPP
+#ifndef MINI_RV32IMA_HPP
+#define MINI_RV32IMA_HPP
 #include <cstdint>
 /**
     To use mini-rv32ima.h for the bare minimum, the following:

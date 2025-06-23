@@ -8,7 +8,7 @@ OPTIMIZE_FLAGS = -O2
 TINY_FLAGS = -Os -ffunction-sections -fdata-sections -Wl,--gc-sections -s
 
 SRC = main.cpp mem.cpp
-HEADERS = mini-rv32imah.hpp mem.hpp
+HEADERS = mini-rv32ima.hpp mem.hpp
 TARGET = mini-rv32ima
 
 .PHONY: all clean
