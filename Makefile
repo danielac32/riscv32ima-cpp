@@ -1,7 +1,7 @@
 # Makefile para el emulador RISC-V en C++
 
 CXX = g++
-CXXFLAGS = -std=c++17 -Wall -Wextra -DMINIRV32_IMPLEMENTATION
+CXXFLAGS = -std=c++17 -Wall -Wextra 
 LDFLAGS = 
 DEBUG_FLAGS = -g
 OPTIMIZE_FLAGS = -O2
@@ -29,3 +29,6 @@ clean:
 # Regla adicional si necesitas generar un .flt (aunque no está claro qué es en tu ejemplo)
 $(TARGET).flt: $(TARGET)
 	cp $(TARGET) $(TARGET).flt
+
+run:
+	./mini-rv32ima kernel.bin
